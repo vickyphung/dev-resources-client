@@ -7,7 +7,7 @@ const Wise = () => {
 
   useEffect(() => {
   // const url = `http://localhost:3001/bookmarks/category/wise`;
-  const url = `http://devresources.herokuapp.com/bookmarks/category/wise`;
+  const url = `https://devresources.herokuapp.com/bookmarks/category/wise`;
   
   const getBookmarks = async () => {
     try {

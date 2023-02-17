@@ -1,6 +1,6 @@
 import axios from 'axios';
 // const BASE_URL = 'http://localhost:3001/users';
-const BASE_URL = 'http://devresources.herokuapp.com/users';
+const BASE_URL = 'https://devresources.herokuapp.com/users';
 
 
 

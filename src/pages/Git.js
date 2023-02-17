@@ -8,7 +8,7 @@ const Git = () => {
     
   const getBookmarks = async () => {
   // const url = `http://localhost:3001/bookmarks/category/git`;
-  const url = `http://devresources.herokuapp.com/bookmarks/category/git`;
+  const url = `https://devresources.herokuapp.com/bookmarks/category/git`;
 
     try {
       const response = await fetch(url);

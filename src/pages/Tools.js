@@ -7,7 +7,7 @@ const Tools = () => {
 
   useEffect(() => {
   // const url = `http://localhost:3001/bookmarks/category/tools`;
-  const url = `http://devresources.herokuapp.com/bookmarks/category/tools`;
+  const url = `https://devresources.herokuapp.com/bookmarks/category/tools`;
   
   const getBookmarks = async () => {
     try {

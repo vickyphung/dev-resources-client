@@ -6,7 +6,7 @@ const Javascript = () => {
 
   useEffect(() => {
   // const url = `http://localhost:3001/bookmarks/category/JavaScript`;
-  const url = `http://devresources.herokuapp.com/bookmarks/category/JavaScript`;
+  const url = `https://devresources.herokuapp.com/bookmarks/category/JavaScript`;
 
   const getBookmarks = async () => {
     try {

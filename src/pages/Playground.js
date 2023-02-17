@@ -7,7 +7,7 @@ const Playground = () => {
  
   useEffect(() => {
   // const url = `http://localhost:3001/bookmarks/category/sandbox`;
-  const url = `http://devresources.herokuapp.com/bookmarks/category/sandbox`;
+  const url = `https://devresources.herokuapp.com/bookmarks/category/sandbox`;
 
   const getBookmarks = async () => {
     try {

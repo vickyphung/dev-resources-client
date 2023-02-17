@@ -8,7 +8,7 @@ const Other = () => {
  
   useEffect(() => {
   // const url = `http://localhost:3001/bookmarks/category/other`;
-  const url = `http://devresources.herokuapp.com/bookmarks/category/other`;
+  const url = `https://devresources.herokuapp.com/bookmarks/category/other`;
  
   const getBookmarks = async () => {
     try {

@@ -32,7 +32,7 @@ const AddBookmarkForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await axios.post("http://devresources.herokuapp.com/bookmarks/add/", {
+    const response = await axios.post("https://devresources.herokuapp.com/bookmarks/add/", {
       site: formData.site,
       url: formData.url,
       category: formData.category,

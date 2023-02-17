@@ -7,7 +7,7 @@ const Freecourses = () => {
  
   useEffect(() => {
   // const url = `http://localhost:3001/bookmarks/category/free%20online%20courses`;
-  const url = `http://devresources.herokuapp.com/bookmarks/category/free%20online%20courses`;
+  const url = `https://devresources.herokuapp.com/bookmarks/category/free%20online%20courses`;
 
   const getBookmarks = async () => {
     try {
