@@ -6,7 +6,9 @@ const Htmlcss = () => {
 
 
   useEffect(() => {
-  const url = `http://localhost:3001/bookmarks/category/css`;
+  // const url = `http://localhost:3001/bookmarks/category/css`;
+  const url = `http://devresources.herokuapp.com/bookmarks/category/css`;
+  
   const getBookmarks = async () => {
     try {
       const response = await fetch(url);

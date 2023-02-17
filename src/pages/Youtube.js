@@ -7,7 +7,9 @@ const Youtube = () => {
 
  
   useEffect(() => {
-  const url = `http://localhost:3001/bookmarks/category/youtube`;
+  // const url = `http://localhost:3001/bookmarks/category/youtube`;
+  const url = `http://devresources.herokuapp.com/bookmarks/category/youtube`;
+ 
   const getBookmarks = async () => {
     try {
       const response = await fetch(url);

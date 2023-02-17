@@ -7,7 +7,9 @@ const Webdev = () => {
 
  
   useEffect(() => {
-  const url = `http://localhost:3001/bookmarks/category/web%20development`;
+  // const url = `http://localhost:3001/bookmarks/category/web%20development`;
+  const url = `http://devresources.herokuapp.com/bookmarks/category/web%20development`;
+  
   const getBookmarks = async () => {
     try {
       const response = await fetch(url);

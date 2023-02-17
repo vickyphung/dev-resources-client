@@ -18,7 +18,9 @@ const Bookmarks = () => {
 
   // useEffect to runs when component mounts
   useEffect(() => {
-  const url = `http://localhost:3001/bookmarks`;
+  // const url = `http://localhost:3001/bookmarks`;
+  const url = `http://devresources.herokuapp.com/bookmarks`;
+
 
   const getBookmarks = async () => {
     try{

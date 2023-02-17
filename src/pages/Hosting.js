@@ -7,7 +7,8 @@ const Hosting = () => {
 
 
   useEffect(() => {
-  const url = `http://localhost:3001/bookmarks/category/hosting`;
+  // const url = `http://localhost:3001/bookmarks/category/hosting`;
+  const url = `http://devresources.herokuapp.com/bookmarks/category/hosting`;
 
     const getBookmarks = async () => {
       try {

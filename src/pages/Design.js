@@ -7,7 +7,7 @@ const Design = () => {
  
  
   useEffect(() => {
-  const url = `http://localhost:3001/bookmarks/category/design`;
+  const url = `http://devresources.herokuapp.com/bookmarks/category/design`;
   const getBookmarks = async () => {
     try {
       const response = await fetch(url);

@@ -5,7 +5,8 @@ const Mongo = () => {
   const [bookmarks, setBookmarks] = useState("");
 
   useEffect(() => {
-  const url = `http://localhost:3001/bookmarks/category/mongo`;
+  // const url = `http://localhost:3001/bookmarks/category/mongo`;
+  const url = `http://devresources.herokuapp.com/bookmarks/category/mongo`;
 
   const getBookmarks = async () => {
     try {

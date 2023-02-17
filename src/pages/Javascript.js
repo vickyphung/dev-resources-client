@@ -5,7 +5,8 @@ const Javascript = () => {
   const [bookmarks, setBookmarks] = useState("");
 
   useEffect(() => {
-  const url = `http://localhost:3001/bookmarks/category/JavaScript`;
+  // const url = `http://localhost:3001/bookmarks/category/JavaScript`;
+  const url = `http://devresources.herokuapp.com/bookmarks/category/JavaScript`;
 
   const getBookmarks = async () => {
     try {

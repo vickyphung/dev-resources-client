@@ -5,7 +5,7 @@ const Dsalgo = () => {
   const [bookmarks, setBookmarks] = useState("");
 
   useEffect(() => {
-    const url = `http://localhost:3001/bookmarks/category/data%20structures%20and%20algorithms`;
+    const url = `http://devresources.herokuapp.com/bookmarks/category/data%20structures%20and%20algorithms`;
 
     const getBookmarks = async () => {
       try {

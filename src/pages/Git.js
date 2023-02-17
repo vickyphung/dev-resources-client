@@ -7,7 +7,8 @@ const Git = () => {
   useEffect(() => {
     
   const getBookmarks = async () => {
-  const url = `http://localhost:3001/bookmarks/category/git`;
+  // const url = `http://localhost:3001/bookmarks/category/git`;
+  const url = `http://devresources.herokuapp.com/bookmarks/category/git`;
 
     try {
       const response = await fetch(url);
