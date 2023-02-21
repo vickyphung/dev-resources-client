@@ -27,6 +27,7 @@ import NavBarLogin from "./components/NavBarLogin";
 import Youtube from "./pages/Youtube";
 import AboutContact from "./pages/AboutContact";
 import Wise from "./pages/Wise";
+import CommandLine from "./pages/CommandLine"
 
 function App() {
   const [user, setUser] = useState(getUser());
@@ -65,6 +66,7 @@ function App() {
                 <Route path="/mongo" element={<Mongo />} />
                 <Route path="/youtube" element={<Youtube />} />
               <Route path="/wise" element={<Wise />} />
+              <Route path="/commandline" element={<CommandLine />} />
 
               </Routes>
             </div>
@@ -101,7 +103,9 @@ function App() {
               <Route path="/other" element={<Other />} />
               <Route path="/mongo" element={<Mongo />} />
               <Route path="/youtube" element={<Youtube />} />
-              {/* <Route path="/wise" element={<Wise />} /> */}
+              <Route path="/commandline" element={<CommandLine />} />
+
+              <Route path="/wise" element={<Wise />} />
             </Routes>
           </div>
         </>
