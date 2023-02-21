@@ -15,7 +15,7 @@ export default function NavBarLogin(props) {
 
 
       <div className="nav">
-
+      <Link to="/">Home</Link>
       <Link to="/about">About/Contact</Link>
       <Link to="/add">Add Bookmark</Link>
 
