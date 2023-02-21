@@ -21,7 +21,7 @@ export default function NavBarLogin(props) {
 
 
       {/* <Link to="/">Home</Link> */}
-      <Link to="/bookmarks">All Bookmarks</Link>
+      {/* <Link to="/bookmarks">All Bookmarks</Link> */}
 
         <h4>Categories</h4>
 
