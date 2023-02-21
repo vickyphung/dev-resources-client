@@ -4,7 +4,7 @@ export default function NavBar(props) {
   return (
     <nav>
       <div className="nav">
-        {/* <Link to="/">All Bookmarks</Link> */}
+        <Link to="/">All Bookmarks</Link>
         <Link to="/">About/Contact</Link>
         <Link to="/auth">Sign Up/Log In </Link>
 

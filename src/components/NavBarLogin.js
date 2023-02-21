@@ -21,11 +21,12 @@ export default function NavBarLogin(props) {
 
 
       {/* <Link to="/">Home</Link> */}
-      {/* <Link to="/bookmarks">All Bookmarks</Link> */}
+      <Link to="/bookmarks">All Bookmarks</Link>
 
         <h4>Categories</h4>
 
         {/* <Link to="/articles">Articles</Link> */}
+        <Link to="/commandline">Command Line</Link>
         <Link to="/communities">Communities</Link>
         <Link to="/design">Design</Link>
         <Link to="/dsalgo">Data Structures & Algorithms</Link>
