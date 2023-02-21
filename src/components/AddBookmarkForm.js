@@ -45,7 +45,7 @@ const AddBookmarkForm = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="site">Site:</label>
+        <label htmlFor="site">Name:</label>
         <br />
         <input
           type="text"
@@ -73,7 +73,7 @@ const AddBookmarkForm = () => {
           onChange={handleChange}
           value={formData.category}
         >
-          <option value="communities">Comunities</option>
+          <option value="communities">Communities</option>
           <option value="css">CSS</option>
           <option value="design">Design</option>
           <option value="data structures and algorithms">
@@ -95,8 +95,10 @@ const AddBookmarkForm = () => {
           <option value="web development">Web Development</option>
           <option value="youtube">YouTube</option>
 
-          <option value="wise">WISE</option>
+          {/* <option value="wise">WISE</option> */}
           <option value="wise js">WISE JS</option>
+          
+
           {/* <option value="wise react">WISE React</option> */}
         </select>
 
