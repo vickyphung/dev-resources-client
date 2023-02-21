@@ -1,14 +1,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-const Wise = () => {
+const Communities = () => {
   const [bookmarks, setBookmarks] = useState("");
 
-
+ 
+ 
   useEffect(() => {
-  // const url = `http://localhost:3001/bookmarks/category/wise`;
-  const url = `https://devresources.herokuapp.com/bookmarks/category/wise%20js`;
-  
+  const url = `https://devresources.herokuapp.com/bookmarks/category/communities`;
   const getBookmarks = async () => {
     try {
       const response = await fetch(url);
@@ -20,14 +19,13 @@ const Wise = () => {
       console.error(e);
     }
   };
- 
     getBookmarks();
   }, []);
 
   const loaded = () => {
     return (
       <div className="container">
-        <h2>WISE - JavaScript</h2>
+        <h2>Communities</h2>
         <div className="siteList">
           {bookmarks?.map((bookmark, index) => (
             <div className="site">
@@ -52,4 +50,4 @@ const Wise = () => {
   );
 };
 
-export default Wise;
+export default Communities;

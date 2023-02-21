@@ -28,6 +28,7 @@ import Youtube from "./pages/Youtube";
 import AboutContact from "./pages/AboutContact";
 import Wise from "./pages/Wise";
 import CommandLine from "./pages/CommandLine"
+import Communities from "./pages/Communities";
 
 function App() {
   const [user, setUser] = useState(getUser());
@@ -67,6 +68,7 @@ function App() {
                 <Route path="/youtube" element={<Youtube />} />
               <Route path="/wise" element={<Wise />} />
               <Route path="/commandline" element={<CommandLine />} />
+              <Route path="/communities" element={<Communities />} />
 
               </Routes>
             </div>
@@ -104,6 +106,8 @@ function App() {
               <Route path="/mongo" element={<Mongo />} />
               <Route path="/youtube" element={<Youtube />} />
               <Route path="/commandline" element={<CommandLine />} />
+              <Route path="/communities" element={<Communities />} />
+
 
               <Route path="/wise" element={<Wise />} />
             </Routes>

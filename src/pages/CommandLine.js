@@ -25,7 +25,7 @@ const CommandLine = () => {
   const loaded = () => {
     return (
       <div className="container">
-        <h2>Design</h2>
+        <h2>Command Line</h2>
         <div className="siteList">
           {bookmarks?.map((bookmark, index) => (
             <div className="site">
