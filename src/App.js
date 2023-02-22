@@ -47,7 +47,7 @@ function App() {
 
             <div>
               <Routes>
-              <Route path="/auth" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/logout" element={<Logout />} />
               <Route path="/add" element={<AddBookmark />} />
               <Route path="/about" element={<AboutContact />} />
@@ -90,8 +90,9 @@ function App() {
             
             <Routes>
           <Route path="/auth" element={<Auth setUser={setUser} />} />
-          {/* <Route path="/" element={<Bookmarks />} /> */}
-          <Route path="/" element={<AboutContact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutContact />} />
+
 
               <Route path="/bookmarks" element={<Bookmarks />} />
               <Route path="/css" element={<Htmlcss />} />
