@@ -16,6 +16,8 @@ import Dsalgo from "./pages/Dsalgo";
 import Freecourses from "./pages/Freecourses";
 import Webdev from "./pages/Webdev";
 import Playground from "./pages/Playground";
+import Podcasts from "./pages/Podcasts";
+
 import Javascript from "./pages/Javascript";
 import Node from "./pages/Node";
 import Design from "./pages/Design";
@@ -60,6 +62,8 @@ function App() {
                 <Route path="/webdev" element={<Webdev />} />
                 <Route path="/react" element={<Reactjs />} />
                 <Route path="/playground" element={<Playground />} />
+                <Route path="/podcasts" element={<Podcasts />} />
+
                 <Route path="/js" element={<Javascript />} />
                 <Route path="/node" element={<Node />} />
                 <Route path="/design" element={<Design />} />
