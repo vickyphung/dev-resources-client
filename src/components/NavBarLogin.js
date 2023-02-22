@@ -15,7 +15,7 @@ export default function NavBarLogin(props) {
 
 
       <div className="nav">
-      <Link to="/">Home</Link>
+      {/* <Link to="/">Home</Link> */}
       <Link to="/about">About/Contact</Link>
       <Link to="/add">Add Bookmark</Link>
 
@@ -46,7 +46,7 @@ export default function NavBarLogin(props) {
         <Link to="/webdev">Web Development</Link>
         <Link to="/youtube">YouTube</Link>
 
-        <br /><Link to="/wise">WISE</Link>
+        <br /><Link to="/wise">WISE: JS</Link>
 
 
       </div>

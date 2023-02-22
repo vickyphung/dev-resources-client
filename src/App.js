@@ -1,4 +1,5 @@
 import "./App.css";
+import { Link } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import { getUser } from "./utilities/users-service";
@@ -34,7 +35,7 @@ function App() {
   const [user, setUser] = useState(getUser());
   return (
     <div className="App">
-      <h1>Developer Resources</h1>
+       <Link className="title" to="/"><h1>Developer Resources</h1></Link>  
       {user ? (
         <>
           <div className="flex">

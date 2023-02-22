@@ -27,3 +27,8 @@ h2 {
     /* padding-top: 0; */
 
   }
+
+  .title {
+      text-decoration: none;
+      color: #1b1b1b;
+  }
