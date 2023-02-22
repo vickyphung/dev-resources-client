@@ -31,8 +31,8 @@ export default function NavBar(props) {
         <Link to="/tools">Tools</Link>
         <Link to="/webdev">Web Development</Link>
         <Link to="/youtube">YouTube</Link>
-        
-        <Link to="/wise">WISE: JS</Link> *
+        <br />
+        <Link to="/wise">WISE: JS</Link> 
 
        
       </div>
